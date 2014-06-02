@@ -37,14 +37,15 @@
     </div>
     <nav class="collapse navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
-        <li data-lift="menu.items"><a href="#">Inicio</a></li>
+        <li data-lift="menu.items"><a href="#">Home</a></li>
       </ul>
-      <form class="navbar-form navbar-right" role="search" action="https://www.google.com/search">
+      <form class="navbar-form navbar-left" role="search" action="https://www.google.com/search">
         <div class="form-group">
-          <input name="q" class="form-control"> <input name="as_sitesearch" type="hidden" value="http://jota.jota.telegr.am">
+          <input name="q" class="form-control"> <input name="as_sitesearch" type="hidden" value="http://telegr.am">
         </div>
         <input type="submit" value="Search">
       </form>
+      <form data-lift="search" class="" style="float: right"></form>     
     </nav>
   </div>
 </header>
@@ -60,7 +61,7 @@
       <div class="col-md-5">
         <div class="well well-lg"> 
           <div class="row">
-            <div class="col-sm-12" id="right-side">
+            <div class="col-sm-12">
               Ad Space			
             </div>
           </div>
@@ -76,7 +77,8 @@
 	  <!-- if you've got a header, put it here -->
         </div>
         <div id="main_content_place">
-            <div id="left_side">                
+            <div id="left_side">
+                <div id="content">Content goes here</div>
             </div>
 	    <div id="right_side">
 	      <!-- blank... but we can layout stuff here -->
